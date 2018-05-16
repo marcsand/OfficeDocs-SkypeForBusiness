@@ -69,8 +69,7 @@ Allow for replication time before testing and validating.
 In this example, the identity parameter is  required:
 `Remove-CsInboundBlockedNumberPattern -Identity “<identity>”`
  
-If the Identity is not known, use the *Get-CsInb
-undBlockedNumberPattern* cmdlet to first locate the proper pattern and note the Identity. Then, run the *Remove* cmdlet and pass the appropriate Identity value.
+If the Identity is not known, use the *Get-CsInboundBlockedNumberPattern* cmdlet to first locate the proper pattern and note the Identity. Then, run the *Remove* cmdlet and pass the appropriate Identity value.
 
 Allow for replication time before testing and validating.
 #### View all Number Patterns
